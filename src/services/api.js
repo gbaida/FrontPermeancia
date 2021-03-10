@@ -3,7 +3,7 @@ import axios from 'axios';
 
 // URL da API
 const api = axios.create({
-    baseURL: "https://api-predicao-permeancia.herokuapp.com/"
+    baseURL: "https://back-permeancia-klabin-sacos.herokuapp.com/"
 });
 
 // Exporta a API para ser utilizada posteriormente
