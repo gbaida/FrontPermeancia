@@ -1,0 +1,24 @@
+.loadingIndicator{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #043927;
+    border:1px solid #000000;
+    border-radius:0.8rem;
+    margin: auto;
+    position: absolute;
+    z-index: 3;
+    height: 200px;
+    width: 300px;
+} 
+#labelLoadingIndicator{
+    color:#eeeeee;
+    font: 600 0.8rem Montserrat;
+}
+#divLoading{
+    content: "";
+    width: 100%;
+    background-color: #ffffff65;   
+}
