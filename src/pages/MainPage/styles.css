@@ -80,6 +80,7 @@ form input{
     font: 400 1.4rem Montserrat;
 }
 
+
 form input + input{
     margin-top:10px
 }
@@ -129,7 +130,7 @@ form div label{
     margin:3rem;
 }
 .predictionDiv label{
-    width:40%;
+    width:60%;
     min-width: 10rem;
     font: 600 2.8rem Montserrat;
     background: none;
@@ -144,6 +145,18 @@ form div label{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.predictionDiv .resultDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 0.2rem;
+    width:60%;
+    height: 30%;
+    margin-top: 2rem;
+    padding: 1rem;
 }
 .predictionDiv .resultDiv{
     display: flex;

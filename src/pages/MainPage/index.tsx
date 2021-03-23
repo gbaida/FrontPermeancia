@@ -501,9 +501,9 @@ function MainPage (){
                             <div className='predictionDiv'>
                                 <div className="resultDiv">
                                     <p>A permeância prevista é</p>
-                                    {(prediction)===0?
+                                    {(prediction)===0? 
                                         (<p style={{font: "600 0.8rem Montserrat", textAlign: "center"}}>
-                                            Para prever a permeância clique em calcular</p>):(<label>{prediction}</label>)}
+                                            Para prever a permeância clique em calcular</p>):(<label>{prediction} m³/h</label>)}
                                 </div>
                                 <LoadingIndicator texto="Fazendo a predição..."/> 
                                 <div className='buttonPredictDiv'>
